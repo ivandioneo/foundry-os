@@ -1,0 +1,18 @@
+# Normalize line endings to LF on checkin; let Git handle checkout per-OS.
+* text=auto eol=lf
+
+# Treat these as binary (no diff/merge, no EOL normalization).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
+
+# Lockfiles: mark generated, suppress diffs in reviews.
+pnpm-lock.yaml linguist-generated=true -diff
+
+# Documentation classification for language stats.
+*.md linguist-documentation
