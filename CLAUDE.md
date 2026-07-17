@@ -1,14 +1,14 @@
 ---
 Title: Foundry Operating Manual
-Version: 1.0.0
+Version: 1.1.0
 Status: Active
 Owner: Ivan Emmanuel Dioneo
 Project: Foundry OS
-Last Updated: 2026-07-15
+Last Updated: 2026-07-17
 Applies To: All AI agents contributing to this repository
 ---
 
-# CLAUDE.md — Foundry Operating Manual · Version 1.0.0
+# CLAUDE.md — Foundry Operating Manual · Version 1.1.0
 
 This is the **entry point for AI contributors** and the project's **Engineering
 Constitution**. It intentionally stays concise: it explains how Foundry thinks, how to
@@ -362,6 +362,114 @@ change to CLAUDE.md requires:
 
 No AI agent may amend this document unilaterally. Claude Code may **propose** amendments via
 an Issue or PR; it may not adopt them.
+
+## 26. Command Risk Classification
+
+Every command or operation Claude Code executes falls into one of three risk levels:
+
+- 🟢 **Green — Read-only.** Inspection, search, status, verification that does not alter
+  repository or system state (e.g. `git status`, `pnpm lint`, `docker compose ps`). No
+  approval beyond the assigned task is required.
+- 🟡 **Yellow — Repository modifications.** Reversible changes to tracked files,
+  dependencies, or local state (e.g. editing a file, `pnpm add`, `docker compose up`).
+  Proceed within the assigned task's scope; explain non-trivial choices (§23).
+- 🔴 **Red — Destructive operations.** Irreversible or hard-to-reverse actions (e.g. `git
+  reset --hard`, `rm -rf`, dropping a database, force-push, deleting migrations or
+  generated history). Follow the Destructive Operation Policy (§27) before proceeding.
+
+_Origin: repeated ad hoc shell-command approval discussions during STORY-004
+(ENGINEERING-002, Issue #7)._
+
+## 27. Destructive Operation Policy
+
+Before executing a 🔴 Red operation (§26), state:
+
+1. **Risk level** — confirm it is Red.
+2. **Files/state affected** — exactly what changes or is lost.
+3. **Reason** — why this operation is necessary now.
+4. **Expected impact** — what the repository/system looks like afterward.
+5. **Why it is safe** — reversibility, backups, or why the risk is acceptable.
+6. **Explicit approval request** — do not proceed without it, even mid-task.
+
+This extends the existing "never delete production code unless explicitly instructed" and
+"never rewrite Git history" rules (§16) to every destructive operation, not only those two.
+
+_Origin: the Prisma 7 → 6.19.3 rollback (STORY-004) required deleting generated artifacts
+(`generated/prisma`, `prisma.config.ts`) and exposed the lack of a consistent
+explain-before-destroying habit._
+
+## 28. Verification Hierarchy
+
+Verify at the **highest practical level** for the story, not merely the lowest that passes:
+
+1. **Configuration** — the change parses/validates (e.g. `docker compose config`,
+   `prisma validate`).
+2. **Compilation** — the change type-checks and builds (`pnpm typecheck`, `pnpm build`).
+3. **Migration** — schema/state changes actually apply (`prisma migrate status`, applied
+   migrations).
+4. **Runtime** — the running system behaves as expected (a live query, a health check, a
+   started container) — not merely that tooling accepted the change.
+5. **Functional** — the feature does what the story requires, exercised end-to-end.
+
+A story is not "verified" at a level it never reached. State the level honestly (§23); do
+not imply Runtime/Functional verification when only Configuration/Compilation was performed.
+
+_Origin: during STORY-004, a live Prisma Client query against PostgreSQL caught what
+CLI-only validation (`prisma validate`) alone would not have — runtime verification proved
+substantially more valuable than configuration-level checks alone._
+
+## 29. Story Exit Checklist
+
+Before producing the completion report (§18 step 7), confirm:
+
+- [ ] Scope respected — only the assigned Story was implemented (§16).
+- [ ] Architecture unchanged, or changed only via an approved ADR (§11, §31).
+- [ ] Verification complete, at the level claimed (§28).
+- [ ] Runtime verified, if the story has a runtime surface (§28).
+- [ ] Documentation updated (§14).
+- [ ] ADR updated or created, if required (§31).
+- [ ] Secrets protected — nothing committed to the repository (§17, §21).
+- [ ] Generated artifacts ignored, not committed (build output, generated clients).
+- [ ] Technical debt documented, not silently left implicit.
+- [ ] Ready for CTO review.
+
+_Origin: repeated manual CTO reviews during STORY-003 and STORY-004 consistently checked
+scope, architecture, verification, documentation, and readiness by hand — this checklist
+standardizes that recurring review into a repeatable step._
+
+## 30. Lessons Learned
+
+Every completion report (§18 step 7) includes a **Lessons Learned** section: organizational
+knowledge gained during implementation that isn't captured elsewhere — a tool's behavior
+that surprised you, a constraint discovered only by trying, a decision worth remembering
+next time. This is distinct from _known limitations_ (what's incomplete) and _architectural
+decisions_ (what was chosen) — it is what future work should know that this story's
+artifacts alone wouldn't reveal.
+
+_Origin: STORY-004 surfaced several governance gaps (command risk, verification depth,
+destructive-operation habits, ADR triggers) that existed only in conversation until this
+amendment — Lessons Learned exists so that knowledge becomes part of the engineering system
+instead of remaining conversation history._
+
+## 31. ADR Requirements
+
+An ADR (`docs/adr/`) is **required**, not optional, for a decision affecting:
+
+- **Architecture** — layering, request flow, or module boundaries (§11).
+- **Technology selection** — a new dependency, framework, or a major-version pin that
+  changes behavior (§9, §10).
+- **Security** — authentication, authorization, secrets handling, or data exposure (§21).
+- **Deployment** — how or where the system runs (§7).
+- **Repository structure** — where code or config lives, workspace layout (§8).
+- **Long-term maintainability** — anything hard to reverse or expensive to redo later (§22).
+
+If a Story makes such a decision without one already existing, drafting the ADR is part of
+the Story, not a follow-up (precedent: ADR-0003, drafted in _Proposed_ status alongside its
+Story for CTO review).
+
+_Origin: the Prisma 6 vs. 7 decision during STORY-004 needed durable documentation outside
+the completion report — a completion report is read once at review time; an ADR is read by
+every future story that touches the same area._
 
 ---
 
