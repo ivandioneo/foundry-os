@@ -15,3 +15,6 @@ versioning follows [Semantic Versioning](https://semver.org/).
   development workflow, Definition of Ready, and release process documentation
   (STORY-002). ADR template extended with a `Related` field for Story/Epic
   traceability.
+- Local development infrastructure: Docker Compose for PostgreSQL (pgvector-ready),
+  MinIO, and Mailpit, with an isolated network, persistent volumes, and
+  `.env.example` (STORY-003). ADR-0003 (Proposed) records the decision.
