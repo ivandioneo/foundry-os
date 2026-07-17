@@ -1,0 +1,7 @@
+{
+  // Placeholder debug configurations.
+  // No application exists yet (foundation only); real launch/test targets
+  // are added once the app is initialized in a later task.
+  "version": "0.2.0",
+  "configurations": []
+}
