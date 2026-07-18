@@ -106,11 +106,11 @@ The seven criteria are not independent tools operating at the same level. C2 (In
 
 ## Counterarguments
 
-**Circularity risk in C5 itself.** Non-Circular Definability tests whether a candidate's definition improperly references *other candidate concerns* — but this presupposes "concern" is already a well-defined term being referenced, when the entire purpose of this discovery is to establish what "concern" means in the first place.
+**Circularity risk in C5 itself.** Non-Circular Definability tests whether a candidate's definition improperly references _other candidate concerns_ — but this presupposes "concern" is already a well-defined term being referenced, when the entire purpose of this discovery is to establish what "concern" means in the first place.
 
 **Hidden assumption: binary vs. graded.** Every criterion here is phrased as a pass/fail test, which assumes "first-class concern" is a binary category. It may instead be a matter of degree, in which case a checklist returning pass/fail is itself a category error.
 
-**Hidden assumption: the criteria are jointly sufficient.** Nothing here demonstrates that satisfying all seven *guarantees* first-class status — only that failing any one is evidence against it.
+**Hidden assumption: the criteria are jointly sufficient.** Nothing here demonstrates that satisfying all seven _guarantees_ first-class status — only that failing any one is evidence against it.
 
 **Unnecessary restriction:** C6 may wrongly exclude legitimately plural-only concerns.
 
@@ -135,11 +135,10 @@ The seven criteria are not independent tools operating at the same level. C2 (In
 Framed as **necessary-condition filters that reject, not confirm** — surviving all of them is evidence a candidate deserves further consideration, not proof it is first-class.
 
 **Hard gates (a candidate failing any one should not be treated as first-class):**
+
 1. **Independent Failure Mode** (absorbing Irreducibility as its underlying justification — C1/C2 merged)
 2. **Non-Terminality**
 3. **Representation-Independence**
 4. **Non-Circular Definability** (applied specifically between any two candidates that appear related)
 
-**Soft calibration signals (adjust confidence; absence alone should not disqualify):**
-5. **Minimal-Instantiation Presence** — flags candidates for scrutiny rather than auto-rejecting.
-6. **Independent Corroboration** — raises confidence when present; absence is expected and acceptable for genuinely novel candidates.
+**Soft calibration signals (adjust confidence; absence alone should not disqualify):** 5. **Minimal-Instantiation Presence** — flags candidates for scrutiny rather than auto-rejecting. 6. **Independent Corroboration** — raises confidence when present; absence is expected and acceptable for genuinely novel candidates.

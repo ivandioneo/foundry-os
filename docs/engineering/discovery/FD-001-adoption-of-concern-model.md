@@ -1,4 +1,5 @@
 # Founder Decision FD-001
+
 ## First-Class Organizational Concerns
 
 ---
@@ -55,16 +56,16 @@ It is not sufficient for broader scope: this model is not final or constitutiona
 
 Full gate-by-gate evidence for each classification is recorded in D-001R and not reproduced here.
 
-| Concern | Status | Basis |
-|---|---|---|
-| Memory | Retained | Passes all D-000 gates (D-001R) |
-| Distinction | Retained | Passes all D-000 gates (D-001R) |
-| Judgment | Retained (broadened) | Passes all D-000 gates; absorbs Correction, Renewal (D-001R) |
-| Reality-Testing | Retained | Passes all D-000 gates (D-001R) |
-| Value Definition | Retained | Passes all D-000 gates (D-001R) |
-| Correction | Merged into Judgment | Fails Independent Failure Mode and Conceptual Independence gates (D-001R) |
-| Renewal | Merged into Judgment | Fails the same two gates (D-001R) |
-| Accountability | Reclassified | Scale-conditional gate results (D-001R) |
+| Concern          | Status               | Basis                                                                     |
+| ---------------- | -------------------- | ------------------------------------------------------------------------- |
+| Memory           | Retained             | Passes all D-000 gates (D-001R)                                           |
+| Distinction      | Retained             | Passes all D-000 gates (D-001R)                                           |
+| Judgment         | Retained (broadened) | Passes all D-000 gates; absorbs Correction, Renewal (D-001R)              |
+| Reality-Testing  | Retained             | Passes all D-000 gates (D-001R)                                           |
+| Value Definition | Retained             | Passes all D-000 gates (D-001R)                                           |
+| Correction       | Merged into Judgment | Fails Independent Failure Mode and Conceptual Independence gates (D-001R) |
+| Renewal          | Merged into Judgment | Fails the same two gates (D-001R)                                         |
+| Accountability   | Reclassified         | Scale-conditional gate results (D-001R)                                   |
 
 ---
 
@@ -119,6 +120,7 @@ FD-001 should be reopened if any of the following occurs:
 **Approved with Conditions**, following CTO Review and independent Co-CTO Review.
 
 Conditions:
+
 1. Status remains **Provisional** (§2).
 2. The reversal conditions in §9 are binding triggers for reopening this decision.
 3. The repository is updated promptly to reflect this Founder Decision, so the currently adopted working concern model is operationally available as the reference for future Discovery work and evaluation.
@@ -129,16 +131,16 @@ Conditions:
 
 Editorial changes applied for publication, following Co-CTO review. No architectural, evidentiary, or classification changes were made.
 
-| Change | Reason |
-|---|---|
-| Title and Decision (§3) reworded to "currently adopted working concern model" throughout | Consistent provisional language, avoiding wording that implies permanence |
-| §2 Status shortened: D-000's four recorded limitations are referenced (D-001R) rather than listed | Reduce duplicated reasoning; detailed analysis belongs in the Discovery record |
-| §3 gained an explicit **Scope** clause | The Founder Decision should visibly record Scope as primary content, not leave it implicit in §7 alone |
-| §4 Evidence compressed to one-line summaries per discovery, with a pointer to D-001R for full reasoning | Discovery remains the home of detailed analysis |
-| §6 renamed "Currently Adopted Concern Model"; rationale column shortened to short gate citations, with a pointer to D-001R | Reduce duplicated reasoning |
-| §5 tightened for length; no content removed | Reduce duplicated reasoning |
-| §11 retitled from "Recommendation to Founder" to "Founder Approval"; reframed from a prospective recommendation to a record of the completed approval; removed a justification paragraph that duplicated §5 and §8 | Reflects that the governance cycle (CTO Review, Co-CTO Review, Founder Approval) is complete |
-| Confirmed no remaining language implies repository commits or documentation create organizational authority (§10, §11) | Repository artifacts record Founder Decisions; they do not establish authority |
-| No new section, artifact class, or reference to "Independent Review" as a formal artifact was added | Independent review remains a governance practice, not a new artifact class |
+| Change                                                                                                                                                                                                             | Reason                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Title and Decision (§3) reworded to "currently adopted working concern model" throughout                                                                                                                           | Consistent provisional language, avoiding wording that implies permanence                              |
+| §2 Status shortened: D-000's four recorded limitations are referenced (D-001R) rather than listed                                                                                                                  | Reduce duplicated reasoning; detailed analysis belongs in the Discovery record                         |
+| §3 gained an explicit **Scope** clause                                                                                                                                                                             | The Founder Decision should visibly record Scope as primary content, not leave it implicit in §7 alone |
+| §4 Evidence compressed to one-line summaries per discovery, with a pointer to D-001R for full reasoning                                                                                                            | Discovery remains the home of detailed analysis                                                        |
+| §6 renamed "Currently Adopted Concern Model"; rationale column shortened to short gate citations, with a pointer to D-001R                                                                                         | Reduce duplicated reasoning                                                                            |
+| §5 tightened for length; no content removed                                                                                                                                                                        | Reduce duplicated reasoning                                                                            |
+| §11 retitled from "Recommendation to Founder" to "Founder Approval"; reframed from a prospective recommendation to a record of the completed approval; removed a justification paragraph that duplicated §5 and §8 | Reflects that the governance cycle (CTO Review, Co-CTO Review, Founder Approval) is complete           |
+| Confirmed no remaining language implies repository commits or documentation create organizational authority (§10, §11)                                                                                             | Repository artifacts record Founder Decisions; they do not establish authority                         |
+| No new section, artifact class, or reference to "Independent Review" as a formal artifact was added                                                                                                                | Independent review remains a governance practice, not a new artifact class                             |
 
 §§7, 8, 9, 10 (Non-Decisions, Risks, Reversal Conditions, Deferred Work) are unchanged in substance from the prior editorial version.

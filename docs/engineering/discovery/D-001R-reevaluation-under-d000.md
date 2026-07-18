@@ -11,14 +11,16 @@
 **Original Definition (D-001):** Capacity to retain what was learned across time, personnel, and tools.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass.** A scenario where Distinction, Judgment, Reality-Testing, Accountability, Value Definition all function correctly in the moment, but nothing persists across time — the organization repeatedly re-attempts a previously-failed approach not from bad judgment in each instance, but because no instance has access to the fact that a prior instance already tried it.
-- *Representation Independence:* **Pass.** Requires *some* durable medium but not any *specific* one.
-- *Non-Terminality:* **Pass.** Retention degrades continuously and requires ongoing maintenance.
-- *Conceptual Independence:* **Pass.** Correction's own definition presupposes knowing what was previously decided — removing Memory removes the ability to explain why Correction is coherent.
+
+- _Independent Failure Mode:_ **Pass.** A scenario where Distinction, Judgment, Reality-Testing, Accountability, Value Definition all function correctly in the moment, but nothing persists across time — the organization repeatedly re-attempts a previously-failed approach not from bad judgment in each instance, but because no instance has access to the fact that a prior instance already tried it.
+- _Representation Independence:_ **Pass.** Requires _some_ durable medium but not any _specific_ one.
+- _Non-Terminality:_ **Pass.** Retention degrades continuously and requires ongoing maintenance.
+- _Conceptual Independence:_ **Pass.** Correction's own definition presupposes knowing what was previously decided — removing Memory removes the ability to explain why Correction is coherent.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* Meaningful at n=1.
-- *External Evidence:* Strong — institutional memory / organizational-learning literature, and the precedent of oral tradition and apprenticeship.
+
+- _Minimal Instantiation:_ Meaningful at n=1.
+- _External Evidence:_ Strong — institutional memory / organizational-learning literature, and the precedent of oral tradition and apprenticeship.
 
 **Strengths:** Passes cleanly on all four gates.
 **Weaknesses:** D-001A's counter-argument ("a small team remembers fine through habit") shows implementation of Memory can be informal, not that the concern is dispensable.
@@ -33,14 +35,16 @@
 **Original Definition (D-001):** Capacity to reliably tell different kinds of things apart so different kinds of things are treated differently.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass.** A scenario where Judgment achieves clean closure but on a miscategorized premise produces a failure ("confidently wrong due to category error") distinguishable from indecision or forgetting.
-- *Representation Independence:* **Pass.** The taxonomy/vocabulary is swappable; the capacity persists.
-- *Non-Terminality:* **Pass.** Taxonomies require continuous revision.
-- *Conceptual Independence:* **Pass, contested.** Decisiveness and correctness-of-category vary independently (D-001, B.10) — removing Distinction loses the ability to diagnose this specific class of failure.
+
+- _Independent Failure Mode:_ **Pass.** A scenario where Judgment achieves clean closure but on a miscategorized premise produces a failure ("confidently wrong due to category error") distinguishable from indecision or forgetting.
+- _Representation Independence:_ **Pass.** The taxonomy/vocabulary is swappable; the capacity persists.
+- _Non-Terminality:_ **Pass.** Taxonomies require continuous revision.
+- _Conceptual Independence:_ **Pass, contested.** Decisiveness and correctness-of-category vary independently (D-001, B.10) — removing Distinction loses the ability to diagnose this specific class of failure.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* Meaningful even for a single reasoner, raising a genuine scope question (organizational vs. general-epistemic) — not a gate failure.
-- *External Evidence:* Strong — domain-driven design's "ubiquitous language," legal systems' apparatus of precise distinction-making.
+
+- _Minimal Instantiation:_ Meaningful even for a single reasoner, raising a genuine scope question (organizational vs. general-epistemic) — not a gate failure.
+- _External Evidence:_ Strong — domain-driven design's "ubiquitous language," legal systems' apparatus of precise distinction-making.
 
 **Strengths:** Passes all four gates with the clearest constructed counterexample of the set.
 **Weaknesses:** Scope question unresolved; D-000 has no gate that tests for it.
@@ -55,14 +59,16 @@
 **Original Definition (D-001):** Capacity to resolve an open question under incomplete information and produce a binding commitment.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass.** A scenario where Memory, Distinction, Reality-Testing, Accountability, Value Definition all function, yet the organization never converts any of it into a binding commitment ("knows everything, decides nothing").
-- *Representation Independence:* **Pass.** Judgment is an act, not a record.
-- *Non-Terminality:* **Pass, with a noted complication.** Applies correctly only at the level of the standing capacity, not any individual instance (recorded as a framework limitation, not a mark against the candidate).
-- *Conceptual Independence:* **Pass, strongly.** Nothing else explains conversion of belief into binding action.
+
+- _Independent Failure Mode:_ **Pass.** A scenario where Memory, Distinction, Reality-Testing, Accountability, Value Definition all function, yet the organization never converts any of it into a binding commitment ("knows everything, decides nothing").
+- _Representation Independence:_ **Pass.** Judgment is an act, not a record.
+- _Non-Terminality:_ **Pass, with a noted complication.** Applies correctly only at the level of the standing capacity, not any individual instance (recorded as a framework limitation, not a mark against the candidate).
+- _Conceptual Independence:_ **Pass, strongly.** Nothing else explains conversion of belief into binding action.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* Most clearly present of all eight candidates at n=1.
-- *External Evidence:* Strong — decision theory, OODA loop's "Decide" stage.
+
+- _Minimal Instantiation:_ Most clearly present of all eight candidates at n=1.
+- _External Evidence:_ Strong — decision theory, OODA loop's "Decide" stage.
 
 **Strengths:** Passes all four gates robustly.
 **Weaknesses:** Will need explicit broadening to absorb Correction and Renewal.
@@ -77,14 +83,16 @@
 **Original Definition (D-001):** Capacity to check beliefs and decisions against something outside the organization's own reasoning.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass — reverses D-001A's informal doubt.** A scenario of total isolation (zero channel of contact with the outside world) shows the organization builds increasingly elaborate, internally consistent, unvalidated products indefinitely. Correction cannot act because it has nothing to correct toward; Distinction cannot separate signal from noise because no signal arrives.
-- *Representation Independence:* **Pass.** Contact with the world survives replacement of any specific channel.
-- *Non-Terminality:* **Pass.**
-- *Conceptual Independence:* **Pass.** Correction's own definition requires "something to correct toward" — Reality-Testing supplies that.
+
+- _Independent Failure Mode:_ **Pass — reverses D-001A's informal doubt.** A scenario of total isolation (zero channel of contact with the outside world) shows the organization builds increasingly elaborate, internally consistent, unvalidated products indefinitely. Correction cannot act because it has nothing to correct toward; Distinction cannot separate signal from noise because no signal arrives.
+- _Representation Independence:_ **Pass.** Contact with the world survives replacement of any specific channel.
+- _Non-Terminality:_ **Pass.**
+- _Conceptual Independence:_ **Pass.** Correction's own definition requires "something to correct toward" — Reality-Testing supplies that.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* Meaningful at n=1.
-- *External Evidence:* Strong and convergent — Lean Startup's build-measure-learn, the scientific method's falsification requirement, evolutionary selection pressure.
+
+- _Minimal Instantiation:_ Meaningful at n=1.
+- _External Evidence:_ Strong and convergent — Lean Startup's build-measure-learn, the scientific method's falsification requirement, evolutionary selection pressure.
 
 **Strengths:** Clearest demonstration that D-000 materially changes conclusions, not just formalizes intuitions.
 **Weaknesses:** None identified that survive the constructed scenario.
@@ -99,14 +107,16 @@
 **Original Definition (D-001):** Capacity to revise a prior commitment when Reality-Testing contradicts it.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Fail.** No scenario could be constructed where the missing mechanism is structurally different in kind from Judgment's own mechanism, only its quality — re-affirming a failing course is still an instance of Judgment (closure reached again).
-- *Representation Independence:* Pass in isolation (moot given gate 1).
-- *Non-Terminality:* Pass in isolation (moot given gate 1).
-- *Conceptual Independence:* **Fail.** If Judgment includes evidence-responsiveness as a quality dimension, no explanatory power is lost by removing "Correction" as a separate label.
+
+- _Independent Failure Mode:_ **Fail.** No scenario could be constructed where the missing mechanism is structurally different in kind from Judgment's own mechanism, only its quality — re-affirming a failing course is still an instance of Judgment (closure reached again).
+- _Representation Independence:_ Pass in isolation (moot given gate 1).
+- _Non-Terminality:_ Pass in isolation (moot given gate 1).
+- _Conceptual Independence:_ **Fail.** If Judgment includes evidence-responsiveness as a quality dimension, no explanatory power is lost by removing "Correction" as a separate label.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* At n=1, reversing one's own decision is indistinguishable from deciding again — corroborates the merge.
-- *External Evidence:* **Mixed — genuine counter-evidence found.** Argyris's double-loop learning treats revising the decision-making frame as qualitatively different from ordinary decision-making. Real evidence against a clean merge, not addressed by the mechanism-level test.
+
+- _Minimal Instantiation:_ At n=1, reversing one's own decision is indistinguishable from deciding again — corroborates the merge.
+- _External Evidence:_ **Mixed — genuine counter-evidence found.** Argyris's double-loop learning treats revising the decision-making frame as qualitatively different from ordinary decision-making. Real evidence against a clean merge, not addressed by the mechanism-level test.
 
 **Strengths:** Sharpens D-001A's informal suspicion into a specific, falsifiable claim.
 **Weaknesses:** Double-loop-learning counter-evidence not resolved.
@@ -121,14 +131,16 @@
 **Original Definition (D-001):** Capacity to attach every decision and its consequences to a specific, identifiable responsible party.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass.** A scenario where all other concerns function, but decisions are made by an untraceable collective — a decision can be definite (closure occurred) and correctly arrived at, yet untraceable to a cause.
-- *Representation Independence:* **Fail, scale-conditional.** Informal social knowledge of "who owns this" does not survive personnel turnover or growth without a durable record — unlike Memory, Distinction, or Judgment, this candidate's persistence is contingent on organizational size.
-- *Non-Terminality:* **Pass.**
-- *Conceptual Independence:* **Pass.** A decision can be definite-yet-untraceable, which Judgment's closure-achieving definition alone does not explain.
+
+- _Independent Failure Mode:_ **Pass.** A scenario where all other concerns function, but decisions are made by an untraceable collective — a decision can be definite (closure occurred) and correctly arrived at, yet untraceable to a cause.
+- _Representation Independence:_ **Fail, scale-conditional.** Informal social knowledge of "who owns this" does not survive personnel turnover or growth without a durable record — unlike Memory, Distinction, or Judgment, this candidate's persistence is contingent on organizational size.
+- _Non-Terminality:_ **Pass.**
+- _Conceptual Independence:_ **Pass.** A decision can be definite-yet-untraceable, which Judgment's closure-achieving definition alone does not explain.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* **Fails to be a distinct category at n=1** — at solo-founder scale, Judgment and Accountability are the same act by the same person.
-- *External Evidence:* Strong and telling — mature organizations deliberately invent formal ownership mechanisms (Directly Responsible Individual, RACI, single-threaded ownership) once they scale, corroborating both that the concern is real at scale and absent as a distinct category below it.
+
+- _Minimal Instantiation:_ **Fails to be a distinct category at n=1** — at solo-founder scale, Judgment and Accountability are the same act by the same person.
+- _External Evidence:_ Strong and telling — mature organizations deliberately invent formal ownership mechanisms (Directly Responsible Individual, RACI, single-threaded ownership) once they scale, corroborating both that the concern is real at scale and absent as a distinct category below it.
 
 **Strengths:** Passes Independent Failure Mode and Conceptual Independence with concrete evidence; strong external evidence for its reality at scale.
 **Weaknesses:** Fails full Representation Independence as tested; fails to be meaningfully distinct at minimal instantiation.
@@ -143,14 +155,16 @@
 **Original Definition (D-001):** Capacity to state, examine, and revise a criterion of worth.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Pass.** A scenario where all other concerns function flawlessly, but the organization has never stated or examined what it's optimizing for — it drifts toward whatever is locally reinforced without ever having chosen to. Distinguishable from a Reality-Testing failure (the channel works fine) and a Judgment failure (closure is achieved every time).
-- *Representation Independence:* **Pass, with a recorded weakness.** An unwritten criterion is uniquely vulnerable to silent, undetected drift even without any scale change.
-- *Non-Terminality:* **Pass.**
-- *Conceptual Independence:* **Pass.** Procedural excellence and criterion-correctness vary independently — direct evidence against redundancy with Judgment.
+
+- _Independent Failure Mode:_ **Pass.** A scenario where all other concerns function flawlessly, but the organization has never stated or examined what it's optimizing for — it drifts toward whatever is locally reinforced without ever having chosen to. Distinguishable from a Reality-Testing failure (the channel works fine) and a Judgment failure (closure is achieved every time).
+- _Representation Independence:_ **Pass, with a recorded weakness.** An unwritten criterion is uniquely vulnerable to silent, undetected drift even without any scale change.
+- _Non-Terminality:_ **Pass.**
+- _Conceptual Independence:_ **Pass.** Procedural excellence and criterion-correctness vary independently — direct evidence against redundancy with Judgment.
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* Meaningful at n=1, arguably more acute — no one else to catch drift.
-- *External Evidence:* Strong — Drucker's "what is our business," OKR practice, near-universal mission/vision-statement practice.
+
+- _Minimal Instantiation:_ Meaningful at n=1, arguably more acute — no one else to catch drift.
+- _External Evidence:_ Strong — Drucker's "what is our business," OKR practice, near-universal mission/vision-statement practice.
 
 **Strengths:** Passes all four gates; independent-variation argument as strong as Distinction's.
 **Weaknesses:** Drift-vulnerability is real and unaddressed by any other candidate in the model.
@@ -165,14 +179,16 @@
 **Original Definition (D-001):** Capacity for the organization's own methods to change without losing identity.
 
 **Hard Gate Results**
-- *Independent Failure Mode:* **Fail.** Revising a decision-making method is itself an instance of Judgment (a higher-order decision) combined with Correction (revising a prior commitment given new evidence). If Judgment/Correction is properly unbounded in scope, no scenario distinguishes Renewal's mechanism from Judgment/Correction applied to a different target.
-- *Representation Independence:* Pass in isolation (moot given gate 1).
-- *Non-Terminality:* Pass in isolation (moot given gate 1).
-- *Conceptual Independence:* **Fail.** Naming "Renewal" separately adds no explanatory content beyond "Judgment/Correction, unbounded in scope."
+
+- _Independent Failure Mode:_ **Fail.** Revising a decision-making method is itself an instance of Judgment (a higher-order decision) combined with Correction (revising a prior commitment given new evidence). If Judgment/Correction is properly unbounded in scope, no scenario distinguishes Renewal's mechanism from Judgment/Correction applied to a different target.
+- _Representation Independence:_ Pass in isolation (moot given gate 1).
+- _Non-Terminality:_ Pass in isolation (moot given gate 1).
+- _Conceptual Independence:_ **Fail.** Naming "Renewal" separately adds no explanatory content beyond "Judgment/Correction, unbounded in scope."
 
 **Soft Signal Assessment**
-- *Minimal Instantiation:* At n=1, revising one's own decision-making approach is indistinguishable from making another decision — corroborates the merge.
-- *External Evidence:* **Mixed — genuine counter-evidence found, stronger than Correction's case.** Structural inertia theory and "punctuated equilibrium" / "organizational ambidexterity" literature document that method-level change is empirically much rarer and harder than object-level decisions. The mechanism may be identical, but the empirical difficulty and frequency differ enough that this literature treats it as worth naming separately in practice.
+
+- _Minimal Instantiation:_ At n=1, revising one's own decision-making approach is indistinguishable from making another decision — corroborates the merge.
+- _External Evidence:_ **Mixed — genuine counter-evidence found, stronger than Correction's case.** Structural inertia theory and "punctuated equilibrium" / "organizational ambidexterity" literature document that method-level change is empirically much rarer and harder than object-level decisions. The mechanism may be identical, but the empirical difficulty and frequency differ enough that this literature treats it as worth naming separately in practice.
 
 **Strengths:** Converts D-001A's suspicion (self-inflicted category error) into a specific, checkable claim and confirms it.
 **Weaknesses:** The mechanism-level merge doesn't account for the strong, independent empirical evidence that method-level change behaves very differently in practice.

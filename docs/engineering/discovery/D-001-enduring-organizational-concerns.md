@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Reasoning from the question "what enduring organizational concerns must always exist for Foundry to continuously create, improve, and evolve valuable products — regardless of technology, implementation, tooling, repository structure, or organizational changes," this discovery identifies **eight candidate concerns**. Using DIL as a lens (distinctions that prevent category errors) and DIM as a lens (a workflow moving from uncertainty toward deliberate design) without redefining either, the candidates cluster into a rough dependency structure: **Distinction** is the most foundational (nearly everything else depends on it to avoid operating on wrong categories); **Judgment** and **Value Definition** are the generative concerns (they produce commitments and criteria); **Memory** carries those across time; **Reality-Testing** and **Correction** form an error-detection/repair loop; **Accountability** binds decisions to responsible parties so the loop functions concretely; **Renewal** operates reflexively on all the others, keeping the *methods* by which the other seven concerns are satisfied from calcifying into identity itself.
+Reasoning from the question "what enduring organizational concerns must always exist for Foundry to continuously create, improve, and evolve valuable products — regardless of technology, implementation, tooling, repository structure, or organizational changes," this discovery identifies **eight candidate concerns**. Using DIL as a lens (distinctions that prevent category errors) and DIM as a lens (a workflow moving from uncertainty toward deliberate design) without redefining either, the candidates cluster into a rough dependency structure: **Distinction** is the most foundational (nearly everything else depends on it to avoid operating on wrong categories); **Judgment** and **Value Definition** are the generative concerns (they produce commitments and criteria); **Memory** carries those across time; **Reality-Testing** and **Correction** form an error-detection/repair loop; **Accountability** binds decisions to responsible parties so the loop functions concretely; **Renewal** operates reflexively on all the others, keeping the _methods_ by which the other seven concerns are satisfied from calcifying into identity itself.
 
 Two of the eight (Correction, Renewal) are held with meaningfully lower confidence — it was not possible to rule out that they are compounds of the other six rather than irreducible on their own. This is flagged explicitly rather than resolved, per the discovery-only mandate.
 
@@ -18,7 +18,7 @@ Two of the eight (Correction, Renewal) are held with meaningfully lower confiden
 4. **What disappears if absent:** Every cycle restarts near zero; the organization becomes bounded by the recall of whoever is currently present; compounding advantage becomes structurally impossible, not just poorly executed.
 5. **Depends on it:** Judgment (deciding on the basis of prior learning, not from zero), Correction (can't correct what you don't recall believing), Accountability (can't trace consequence to a decision you no longer remember), Value Definition (a criterion not retained can't be applied consistently over time).
 6. **It depends on:** Distinction — undifferentiated retention is not memory, it's an archive of undifferentiated data; you must first be able to tell learning apart from noise.
-7. **Survives loss of all representation?** Partially. The specific artifact (a wiki, a database) is contingent. But if nothing survives in *any* form — no person recalls it, nothing derived from it persists — Memory itself has failed, not merely its representation. Representation-independent, not representation-free.
+7. **Survives loss of all representation?** Partially. The specific artifact (a wiki, a database) is contingent. But if nothing survives in _any_ form — no person recalls it, nothing derived from it persists — Memory itself has failed, not merely its representation. Representation-independent, not representation-free.
 8. **Matters in 20 years, rebuilt?** Yes — predates software; it's why oral tradition, apprenticeship, and written law exist.
 9. **Category error prevented:** "We did the work" vs. "we kept what the work taught us" — mistaking busyness for accumulation.
 10. **Competing explanations:** Could be a subset of infrastructure (rejected — organizations with zero infrastructure still exhibit or fail at this via habit and onboarding). Could collapse into Reality-Testing (rejected — you can remember a decision's rationale independent of whether that rationale was ever tested against reality).
@@ -32,10 +32,10 @@ Two of the eight (Correction, Renewal) are held with meaningfully lower confiden
 4. **What disappears if absent:** The organization loses the ability to reason correctly about its own state; every other concern becomes internally unreliable because they all operate on categories Distinction supplies.
 5. **Depends on it:** Nearly everything — Memory, Judgment, Accountability, Reality-Testing all require correctly-drawn categories to function correctly rather than merely function.
 6. **It depends on:** A shared symbolic system precise enough to hold the distinctions consistently across people and time; emerges specifically because knowledge must cross boundaries (person to person, or past self to future self).
-7. **Survives loss of all representation?** The vocabulary is fully contingent and replaceable. But unlike Memory, Distinction can't survive as inert stored data — it's an active, applied capacity, not a fact, so it requires *some* live symbolic form to exist at all.
+7. **Survives loss of all representation?** The vocabulary is fully contingent and replaceable. But unlike Memory, Distinction can't survive as inert stored data — it's an active, applied capacity, not a fact, so it requires _some_ live symbolic form to exist at all.
 8. **Matters in 20 years, rebuilt?** Yes, likely more so — the taxonomy would change, but the meta-capacity to maintain a rigorous one wouldn't diminish in a more complex future organization.
 9. **Category error prevented:** Self-referential by nature — but concretely, prevents conflating "documented" with "decided," and "observed" with "true."
-10. **Competing explanations:** Could be an emergent property of good Judgment rather than independent (rejected — a decisive actor can decisively act on wrong categories; Distinction is precondition for Judgment being *correct*, not a byproduct of it being *decisive*). Could fold into "communication" broadly (rejected as too broad).
+10. **Competing explanations:** Could be an emergent property of good Judgment rather than independent (rejected — a decisive actor can decisively act on wrong categories; Distinction is precondition for Judgment being _correct_, not a byproduct of it being _decisive_). Could fold into "communication" broadly (rejected as too broad).
 11. **Confidence:** High — and notably, this emerged as a dependency of nearly every other concern independently of being told to use DIL as a lens, which is corroborating rather than circular.
 
 ### C — Judgment (Decision Authority / Closure)
@@ -112,7 +112,7 @@ Two of the eight (Correction, Renewal) are held with meaningfully lower confiden
 
 1. **Name:** Renewal.
 2. **Definition:** The capacity for the organization's own methods and structures — including its prior expressions of the other seven concerns — to change over time without the organization losing continuity of identity.
-3. **Why it exists:** Every concern above is expressed through some concrete, contingent method at any given moment. The organization needs the capacity to replace *how* it does memory, judgment, accountability, etc.
+3. **Why it exists:** Every concern above is expressed through some concrete, contingent method at any given moment. The organization needs the capacity to replace _how_ it does memory, judgment, accountability, etc.
 4. **What disappears if absent:** The organization becomes trapped inside whatever implementation of the other concerns it first adopted; methods calcify into identity itself.
 5. **Depends on it:** The long-run survival of all seven other concerns.
 6. **It depends on:** Correction, applied reflexively to the organization's own concern-structure, plus Value Definition.
@@ -141,7 +141,7 @@ A rough dependency layering, not a hierarchy of importance:
 
 1. **Single-concern collapse.** All eight could be read as facets of one underlying concern — "the capacity to hold beliefs open to revision under real-world contact." Risks the opposite category error DIL is meant to guard against.
 2. **Existing external frames.** Overlaps with established models — the OODA loop, single- vs. double-loop organizational learning, and cybernetic requisite variety. Not reconciled against those frameworks here.
-3. **Generic systems framing.** These may not be specifically *organizational* concerns at all, but properties of any adaptive system.
+3. **Generic systems framing.** These may not be specifically _organizational_ concerns at all, but properties of any adaptive system.
 
 ---
 

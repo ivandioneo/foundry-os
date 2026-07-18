@@ -13,6 +13,7 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 ## Critical Findings (per concern)
 
 ### Memory
+
 1. **Truly first-class?** Doubtful. Looks more like a **property** — "temporal extension" — that the agentic concerns must possess, than an agentic concern itself.
 2. **Merge candidate:** Distinction (both "epistemic infrastructure" rather than "action").
 3. **Strongest argument against:** A small, high-functioning team with excellent Judgment and Distinction seems to "remember" fine through habit — Memory might be an emergent byproduct of applying good judgment consistently.
@@ -21,7 +22,8 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. property.
 
 ### Distinction
-1. **Truly first-class?** Strongest candidate — but may not be *organizational* at all, possibly a precondition of reasoning generally.
+
+1. **Truly first-class?** Strongest candidate — but may not be _organizational_ at all, possibly a precondition of reasoning generally.
 2. **Merge candidate:** Value Definition (both "criterion-setting").
 3. **Strongest argument against:** Never appears as a standalone organizational activity — only embedded inside the exercise of other concerns; may be a quality (rigor) rather than a concern.
 4. **If removed:** Partially recoverable — "good Judgment" may already be defined as judgment that draws correct distinctions.
@@ -29,6 +31,7 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. property.
 
 ### Judgment
+
 1. **Truly first-class?** Still the strongest candidate, but may need broadening to absorb Accountability and Correction.
 2. **Merge candidate:** Accountability.
 3. **Strongest argument against:** Judgment and Correction may be two temporal slices of one "belief-updating" concern, not two things.
@@ -37,6 +40,7 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. process.
 
 ### Reality-Testing
+
 1. **Truly first-class?** Weaker than D-001 claimed — the world tests every organization constantly regardless of attention; existence of feedback is ambient, not maintained.
 2. **Merge candidate:** Correction, or a new "Attention" concern.
 3. **Strongest argument against:** May collapse fully into Distinction (signal vs. noise) + Correction (acting on it), no independent remainder.
@@ -45,6 +49,7 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. mechanism/channel.
 
 ### Correction
+
 1. **Truly first-class?** No — the weakest along with Renewal.
 2. **Merge candidate:** Judgment, directly.
 3. **Strongest argument against:** If Judgment is always provisional, there is no separate Correction faculty — only different inputs to the same faculty.
@@ -53,6 +58,7 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. behavior.
 
 ### Accountability
+
 1. **Truly first-class?** No — weak. At solo-founder scale, Judgment and Accountability are the same act by the same person.
 2. **Merge candidate:** Judgment.
 3. **Strongest argument against:** Only becomes distinguishable from Judgment once an organization has more than one person.
@@ -61,14 +67,16 @@ D-001 does not deserve to survive as stated. A narrower, more defensible core (t
 6. **Category error risk:** Concern vs. property.
 
 ### Value Definition
+
 1. **Truly first-class?** Contestable — could be Judgment applied to the meta-question of what to optimize for.
 2. **Merge candidate:** Judgment, or Renewal.
-3. **Strongest argument against:** D-001 states Judgment "needs a criterion to decide toward" — Value Definition may be the *content* Judgment requires, not a separate concern.
+3. **Strongest argument against:** D-001 states Judgment "needs a criterion to decide toward" — Value Definition may be the _content_ Judgment requires, not a separate concern.
 4. **If removed:** Judgment, applied honestly and repeatedly, could plausibly generate and refine its own criteria as a byproduct.
 5. **Hidden assumption exposed:** Assumed "value" is singular/unifiable rather than plural/contested across stakeholders.
 6. **Category error risk:** Concern vs. content.
 
 ### Renewal
+
 1. **Truly first-class?** No — the weakest of the eight. Almost certainly "Correction, applied to the concern-structure itself."
 2. **Merge candidate:** Correction, directly.
 3. **Strongest argument against:** If Correction is properly unbounded in scope, Renewal adds nothing — positing it requires first assuming Correction is scope-limited, then inventing a ninth concern to lift a restriction that was self-imposed.
@@ -100,12 +108,12 @@ This objection is not fully rebutted. It is the strongest objection in this crit
 
 ## Merged Candidates
 
-| Absorbed into Judgment | Reasoning |
-|---|---|
-| Accountability | Collapses to Judgment at the smallest organizational scale; fails the "regardless of organizational changes" test. |
-| Correction | No structural remainder beyond "Judgment, re-applied to new evidence." |
-| Renewal | Requires first assuming Correction has an artificial scope limit, then inventing a ninth concern to lift a restriction imposed by the reasoning itself. |
-| Value Definition (contested) | May be the content Judgment requires, not a structurally independent concern — weaker case than the above three, kept as contested. |
+| Absorbed into Judgment       | Reasoning                                                                                                                                               |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Accountability               | Collapses to Judgment at the smallest organizational scale; fails the "regardless of organizational changes" test.                                      |
+| Correction                   | No structural remainder beyond "Judgment, re-applied to new evidence."                                                                                  |
+| Renewal                      | Requires first assuming Correction has an artificial scope limit, then inventing a ninth concern to lift a restriction imposed by the reasoning itself. |
+| Value Definition (contested) | May be the content Judgment requires, not a structurally independent concern — weaker case than the above three, kept as contested.                     |
 
 ## Removed Candidates
 
@@ -135,16 +143,16 @@ None removed outright with full confidence. The strongest candidate for outright
 
 ## Confidence Changes
 
-| Concern | D-001 confidence | Revised confidence | Direction |
-|---|---|---|---|
-| Distinction | High | Medium-high | ↓ |
-| Memory | High | Medium-high | ↓ |
-| Judgment | High | Medium | ↓ |
-| Reality-Testing | High | Low-medium | ↓↓ |
-| Correction | Medium-high | Low | ↓↓ |
-| Accountability | High | Low | ↓↓ |
-| Value Definition | Medium-high | Low-medium | ↓ |
-| Renewal | Medium | Low | ↓ |
-| Trust/Cooperation (new) | — | Medium (untested) | new candidate |
+| Concern                 | D-001 confidence | Revised confidence | Direction     |
+| ----------------------- | ---------------- | ------------------ | ------------- |
+| Distinction             | High             | Medium-high        | ↓             |
+| Memory                  | High             | Medium-high        | ↓             |
+| Judgment                | High             | Medium             | ↓             |
+| Reality-Testing         | High             | Low-medium         | ↓↓            |
+| Correction              | Medium-high      | Low                | ↓↓            |
+| Accountability          | High             | Low                | ↓↓            |
+| Value Definition        | Medium-high      | Low-medium         | ↓             |
+| Renewal                 | Medium           | Low                | ↓             |
+| Trust/Cooperation (new) | —                | Medium (untested)  | new candidate |
 
 No confidence increased anywhere — a purely destructive pass, honestly conducted, should not produce net-higher confidence, and didn't.
