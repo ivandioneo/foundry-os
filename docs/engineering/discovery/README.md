@@ -45,7 +45,24 @@ authority. Per `CLAUDE.md` §2, that authority comes from the Founder Decision i
 from this repository — the repository records the decision so it becomes the operational
 reference for future work; it does not create the decision's authority.
 
-## Index
+## Knowledge states
+
+Three states have emerged through practice. They are recorded here as a **descriptive
+observation**, not a formal governance rule — the distinction may warrant its own future
+Discovery and Founder Decision before being treated as binding:
+
+| State                    | Purpose                    | Authority                | Where it lives                                 |
+| ------------------------ | -------------------------- | ------------------------ | ---------------------------------------------- |
+| **Binding governance**   | Organizational commitments | Highest                  | this folder (the tagged `governance-v1.0` set) |
+| **Accepted discoveries** | Organizational knowledge   | Informative, non-binding | [`accepted/`](./accepted/)                     |
+| **Working discussions**  | Active exploration         | Temporary                | not in the repository                          |
+
+**Accepted ≠ binding.** An accepted discovery has completed CTO Review and Founder Review
+as a Discovery Report — it is durable, citable organizational knowledge — but no Founder
+Decision has adopted its conclusions, so it changes nothing and constrains nothing. It may
+inform future governance; it does not create it.
+
+## Binding baseline (governance-v1.0)
 
 | Document                                                                                   | Type                                           | Summary                                                                          |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -56,5 +73,14 @@ reference for future work; it does not create the decision's authority.
 | [`FD-000-integration-of-d000.md`](./FD-000-integration-of-d000.md)                         | Founder Decision                               | Operationalizes D-000 into Foundry's Discovery methodology                       |
 | [`FD-001-adoption-of-concern-model.md`](./FD-001-adoption-of-concern-model.md)             | Founder Decision                               | Adopts the current working concern model produced by D-001R                      |
 
-Deferred: `D-002` (relationships among the adopted first-class concerns) — see
-`FD-001-adoption-of-concern-model.md` §10.
+## Accepted discoveries (non-binding)
+
+Completed the Discovery lifecycle (CTO Review + Founder Review) as accepted organizational
+knowledge. **No Founder Decision adopts their conclusions**; they do not modify the concern
+model, the relationship model, or any binding artifact.
+
+| Document                                                                                                     | Type                      | Summary                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [`accepted/D-002-relationship-model.md`](./accepted/D-002-relationship-model.md)                             | Discovery                 | Reconstructs the relationship graph among the five adopted concerns from the primary sources            |
+| [`accepted/D-003-reality-testing-value-definition.md`](./accepted/D-003-reality-testing-value-definition.md) | Discovery (refines D-002) | Finds the Reality-Testing ↔ Value Definition cycle only partially supported (one direction an artifact) |
+| [`accepted/D-004-evaluating-relationship-claims.md`](./accepted/D-004-evaluating-relationship-claims.md)     | Discovery (methodology)   | First methodology-tier discovery: whether relationship claims need a D-000-equivalent standard          |
