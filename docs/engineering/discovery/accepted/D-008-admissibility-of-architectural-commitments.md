@@ -79,6 +79,6 @@ Phase B leaned on a notion of "what an architectural commitment is." This phase 
 ## Remaining Uncertainties
 
 - The **weight** of the architectural component rests on a thin base of positive admissions; whether it grows, shrinks, or dissolves under actual constructive attempts is unknown.
-- The **sufficiency gap** is the standing evidential limit — what positively suffices to admit a construction is not derivable from a predominantly evaluative corpus.
+- The **sufficiency gap** is the standing evidential limit — what positively suffices to admit a construction is **not presently justified by the accepted corpus.** D-008 intentionally does not prescribe how this gap must eventually be resolved.
 
 These are recorded, not resolved. D-008 establishes what the accepted Foundry corpus _presently justifies_ about architectural admissibility — not a universal theory of it — and neither anticipates nor charters any subsequent discovery.
