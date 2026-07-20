@@ -78,7 +78,7 @@ definition.
 
 > Pending Product Decision Record (PDR)
 
-- **Workspace** — [`architecture/WORKSPACE.md`](./architecture/WORKSPACE.md), [`pdr/PDR-001-Workspace.md`](./pdr/PDR-001-Workspace.md)
+- **Workspace** — [`architecture/WORKSPACE.md`](./architecture/WORKSPACE.md), [`pdr/PDR-005-Workspace.md`](./pdr/PDR-005-Workspace.md)
 - **Business Memory** — [`architecture/BUSINESS_MEMORY.md`](./architecture/BUSINESS_MEMORY.md), [`pdr/PDR-002-Business-Memory.md`](./pdr/PDR-002-Business-Memory.md)
 - **Organization** — [`architecture/ORGANIZATION.md`](./architecture/ORGANIZATION.md), [`pdr/PDR-003-Organization.md`](./pdr/PDR-003-Organization.md)
 - **Blueprints / Operating Blueprints** — [`architecture/BLUEPRINTS.md`](./architecture/BLUEPRINTS.md), [`pdr/PDR-004-Operating-Blueprints.md`](./pdr/PDR-004-Operating-Blueprints.md)

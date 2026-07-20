@@ -1,9 +1,10 @@
-# PDR-001: Workspace
+# PDR-005: Workspace
 
 - Status: Pending Founder/CTO Approval
-- Decision ID: PDR-001
+- Decision ID: PDR-005
 - Related Product Principles: [`../PRODUCT_PRINCIPLES.md`](../PRODUCT_PRINCIPLES.md) — specific principle(s) to be identified when this PDR's Decision is authored
 - Related Architecture Document: [`../architecture/WORKSPACE.md`](../architecture/WORKSPACE.md)
+- History: originally scoped as PDR-001 during STORY-005; renumbered to PDR-005 when PDR-001 was adopted for Institutional Memory. Only the number changed; this decision remains pending and unaltered.
 
 ## Context
 
