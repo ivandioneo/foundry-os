@@ -1,7 +1,7 @@
 # Workspace — Architecture
 
 - Status: Structural placeholder
-- Related PDR: [`PDR-001-Workspace.md`](../pdr/PDR-001-Workspace.md)
+- Related PDR: [`PDR-005-Workspace.md`](../pdr/PDR-005-Workspace.md)
 
 **Status:** Structural placeholder. This document defines the shape this
 architecture will take; it does not yet define the architecture itself.
@@ -28,7 +28,7 @@ architecture will take; it does not yet define the architecture itself.
 
 ## References
 
-- [`PDR-001-Workspace.md`](../pdr/PDR-001-Workspace.md) — decision record for this component (pending)
+- [`PDR-005-Workspace.md`](../pdr/PDR-005-Workspace.md) — decision record for this component (pending)
 - [`ARCHITECTURE_TEMPLATE.md`](./ARCHITECTURE_TEMPLATE.md) — template this document follows
 - [`../glossary.md`](../glossary.md) — term index
 - [`../README.md`](../README.md) — Product Documentation Framework index

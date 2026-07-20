@@ -1,8 +1,9 @@
 # Executive Intelligence — Architecture
 
 - Status: Structural placeholder
-- Related PDR: None scoped yet (this story defines PDR-001 through PDR-004 for
-  Workspace, Business Memory, Organization, and Operating Blueprints only)
+- Related PDR: None scoped yet (STORY-005 scoped PDRs for Workspace, Business
+  Memory, Organization, and Operating Blueprints only; see the product PDR index
+  for current numbering)
 
 **Status:** Structural placeholder. This document defines the shape this
 architecture will take; it does not yet define the architecture itself.

@@ -30,7 +30,7 @@ product architecture.
 | Document                                                                             | Paired PDR                                                                     |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | [`architecture/ARCHITECTURE_TEMPLATE.md`](./architecture/ARCHITECTURE_TEMPLATE.md)   | — (template)                                                                   |
-| [`architecture/WORKSPACE.md`](./architecture/WORKSPACE.md)                           | [`pdr/PDR-001-Workspace.md`](./pdr/PDR-001-Workspace.md)                       |
+| [`architecture/WORKSPACE.md`](./architecture/WORKSPACE.md)                           | [`pdr/PDR-005-Workspace.md`](./pdr/PDR-005-Workspace.md)                       |
 | [`architecture/BUSINESS_MEMORY.md`](./architecture/BUSINESS_MEMORY.md)               | [`pdr/PDR-002-Business-Memory.md`](./pdr/PDR-002-Business-Memory.md)           |
 | [`architecture/ORGANIZATION.md`](./architecture/ORGANIZATION.md)                     | [`pdr/PDR-003-Organization.md`](./pdr/PDR-003-Organization.md)                 |
 | [`architecture/BLUEPRINTS.md`](./architecture/BLUEPRINTS.md)                         | [`pdr/PDR-004-Operating-Blueprints.md`](./pdr/PDR-004-Operating-Blueprints.md) |
@@ -38,19 +38,21 @@ product architecture.
 
 ## Product Decision Records (`pdr/`)
 
-The product-design counterpart to an ADR (`docs/adr/`). Each PDR below is
-currently a **structural shell**: Status, Decision ID, Related Product
-Principles, and Related Architecture Document are populated; Context, Decision,
-Alternatives Considered, and Consequences are marked "Pending Founder/CTO
-approval" until each decision is actually made.
+The product-design counterpart to an ADR (`docs/adr/`). **PDR-001 (Institutional
+Memory) is Approved** — it is the constitutional root of Foundry's product
+architecture. The remaining PDRs below are still **structural shells**: Status,
+Decision ID, Related Product Principles, and Related Architecture Document are
+populated; Context, Decision, Alternatives Considered, and Consequences are
+marked "Pending Founder/CTO approval" until each decision is actually made.
 
 | Document                                                                       | Status                       |
 | ------------------------------------------------------------------------------ | ---------------------------- |
 | [`pdr/PDR_TEMPLATE.md`](./pdr/PDR_TEMPLATE.md)                                 | — (template)                 |
-| [`pdr/PDR-001-Workspace.md`](./pdr/PDR-001-Workspace.md)                       | Pending Founder/CTO Approval |
+| [`pdr/PDR-001-Institutional-Memory.md`](./pdr/PDR-001-Institutional-Memory.md) | Approved                     |
 | [`pdr/PDR-002-Business-Memory.md`](./pdr/PDR-002-Business-Memory.md)           | Pending Founder/CTO Approval |
 | [`pdr/PDR-003-Organization.md`](./pdr/PDR-003-Organization.md)                 | Pending Founder/CTO Approval |
 | [`pdr/PDR-004-Operating-Blueprints.md`](./pdr/PDR-004-Operating-Blueprints.md) | Pending Founder/CTO Approval |
+| [`pdr/PDR-005-Workspace.md`](./pdr/PDR-005-Workspace.md)                       | Pending Founder/CTO Approval |
 
 ## Governance
 
